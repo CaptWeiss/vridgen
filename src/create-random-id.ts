@@ -1,3 +1,6 @@
+/**
+ * @deprecated use `generateId`
+ */
 export default function createRandomID(nonce: number, day: number) {
   const checksumIndex: number = nonce % 7;
 
@@ -9,16 +12,12 @@ export default function createRandomID(nonce: number, day: number) {
       if (dayString.length < 3) {
         dayString = '0' + dayString;
       }
-      // console.log(this.thisDay.charAt(this.thisDay.length - (i + 1)));
       strNum = parseInt(dayString.charAt(dayString.length - (i + 1)), 10);
       arrDay.unshift(strNum);
     }
-    // console.log(arrDay);
     return arrDay;
   }
 
-  // new compile
-  // console.log(`checksumindex: ${checksumIndex}`);
   let acctNoString: string = '';
   let loop: boolean | void = true;
 
@@ -49,8 +48,6 @@ export default function createRandomID(nonce: number, day: number) {
     acctNo = split1.concat(acctNo);
     acctNo.push(checksumIndex);
     acctNoString = acctNo.join('');
-    // console.log(acctNo);
-    // console.log(acctNoString);
   }
   return acctNoString;
 }

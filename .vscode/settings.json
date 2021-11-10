@@ -3,5 +3,7 @@
         "other": true,
         "comments": true,
         "strings": false
-    }
+    },
+    "editor.detectIndentation": true,
+    "editor.tabSize": 2
 }

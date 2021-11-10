@@ -27,13 +27,12 @@
     "checksum",
     "uid"
   ],
-  "author": "Kolade O. Adetoyinbo (Capt.Weiss)",
+  "author": "Kolade O. Adetoyinbo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CaptWeiss/vridgen/issues"
   },
   "homepage": "https://github.com/CaptWeiss/vridgen#readme",
-  "private": "false",
   "devDependencies": {
     "@types/jest": "^26.0.19",
     "jest": "^26.6.3",

@@ -1,3 +1,6 @@
+/**
+ * @deprecated use `isIdValid`
+ */
 export default function checkIDIntegrity(
   id: string,
 ): { status: 'invalid lenght'; data: false } | { status: 'valid'; data: true } | { status: 'not valid'; data: false } {
