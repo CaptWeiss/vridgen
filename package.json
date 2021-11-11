@@ -1,6 +1,6 @@
 {
   "name": "vridgen",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Verifiable Random ID Generator(vridgen) is a package that lets you create not just a random id, but a random id that you can as well verify its integrity anytime. IDs generated can be verified client side before performing other function on it.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
