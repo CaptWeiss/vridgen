@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/CaptWeiss/vridgen#readme",
   "devDependencies": {
-    "@types/jest": "^26.0.19",
+    "@types/jest": "^29.0.3",
     "jest": "^26.6.3",
     "prettier": "^2.2.1",
     "ts-jest": "^26.4.4",
